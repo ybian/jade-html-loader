@@ -18,10 +18,11 @@ Possible options are (all passed to jade.compile()):
 
 * locals - set locals
 
+* basedir - basedir option for `include`
+
 Don't forget to polyfill `require` if you want to use it in node.
 See [enhanced-require](https://github.com/webpack/enhanced-require) documentation.
 
 ## License
 
 MIT (http://www.opensource.org/licenses/mit-license.php)
-
